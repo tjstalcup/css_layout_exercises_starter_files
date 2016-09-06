@@ -5,58 +5,41 @@ main {
 
 .container {
 	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 100px;
+	margin: 100px auto 0px auto;
 	font-size: 0;
 }
 
+.green, .blue, .grey, .black, .orange {
+	height: 200px;
+	width: 400px;
+	margin: 0 auto;
+	border: solid black 1px;
+	display: inline-block;
+	font-size: 0;
+}
+
+.grey, .black, .orange {
+	height: 300px;
+	width: 33.33%;
+}
+
 .green {
-background-color: green;
-height: 200px;
-width: 400px;
-margin-left: auto;
-margin-right: auto;
-border: solid black 1px;
-display: inline-block;
-font-size: 0;
+	background-color: green;
 }
 
 .blue {
-background-color: blue;
-height: 200px;
-width: 400px;
-margin-left: auto;
-margin-right: auto;
-border: solid black 1px;
-display: inline-block;
-font-size: 0;
+	background-color: blue;
 }
 
 .grey {
-background-color: grey;
-height: 300px;
-width: 33.33%;
-border: solid black 1px;
-display: inline-block;
-font-size: 0;
+	background-color: grey;
+	clear: both;
 }
 
 .black {
-background: black;
-height: 300px;
-width: 33.33%;
-border: solid black 1px;
-display: inline-block;
-font-size: 0;
+	background: black;
 }
 
 .orange {
-background-color: orange;
-height: 300px;
-width: 33.33%;
-border: solid black 1px;
-display: inline-block;
-font-size: 0;
-
+	background-color: orange;
 }
